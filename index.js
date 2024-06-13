@@ -106,7 +106,7 @@ const Product = mongoose.model("Product", {
 });
 
 app.get("/", (req, res) => {
-  res.send("Root");
+  res.send("Backend connected successfully");
 });
 
 //Create an endpoint at ip/login for login the user and giving auth-token
